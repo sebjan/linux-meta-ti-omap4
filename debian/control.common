@@ -1,0 +1,15 @@
+Source: linux-meta-ti-omap4
+Section: devel
+Priority: optional
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.6.1
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Vcs-Git: http://kernel.ubuntu.com/git-repos/ubuntu/ubuntu-maverick-meta.git
+
+Package: linux-tools-omap4
+Architecture: armel
+Section: metapackages
+Depends: ${misc:Depends}, linux-ti-omap4-tools-${kernel-abi-version}
+Description: Linux kernel versioned Tools
+ This package will always depend on the latest Linux kernel versioned tools
+ available. The Ubuntu patches have been applied.

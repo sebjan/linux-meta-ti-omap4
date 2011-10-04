@@ -1,0 +1,130 @@
+linux-meta-ti-omap4 (3.0.0.1280.0) oneiric; urgency=low
+
+  * Initial version for TI packages 128x.y
+
+ -- Adam Conrad <adconrad@0c3.net>  Thu, 29 Sep 2011 20:32:12 -0600
+
+linux-meta-ti-omap4 (3.0.0.1205.0) oneiric; urgency=low
+
+  * Bump ti-omap4 ABI to 3.0.0-1205
+
+ -- Adam Conrad <adconrad@0c3.net>  Thu, 29 Sep 2011 20:32:12 -0600
+
+linux-meta-ti-omap4 (3.0.0.1204.4) oneiric; urgency=low
+
+  * linux-ti-omap4 3.0.0-1204.9
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 06 Sep 2011 17:34:02 -0600
+
+linux-meta-ti-omap4 (3.0.0.1203.3) oneiric; urgency=low
+
+  * linux-ti-omap4 3.0.0-1203.7
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 22 Aug 2011 08:13:44 -0600
+
+linux-meta-ti-omap4 (3.0.0.1202.2) oneiric; urgency=low
+
+  * linux-ti-omap4 3.0.0-1202.6
+    skipped 3.0.0-1201.5
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 18 Aug 2011 05:47:55 -0600
+
+linux-meta-ti-omap4 (3.0.0.1200.1) oneiric; urgency=low
+
+  * linux-ti-omap4 3.0.0-1200.2
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 25 Jul 2011 07:20:39 -0600
+
+linux-meta-ti-omap4 (2.6.38.1309.8) oneiric; urgency=low
+
+  * linux-ti-omap4 2.6.38-1309.13
+
+ -- Andy Whitcroft <apw@canonical.com>  Tue, 05 Jul 2011 13:46:36 +0100
+
+linux-meta-ti-omap4 (2.6.38.1209.7) natty; urgency=low
+
+  * linux-ti-omap4 2.6.38-1209.13
+    -LP: #772381
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 28 Apr 2011 08:03:19 -0600
+
+linux-meta-ti-omap4 (2.6.38.1207.6) natty; urgency=low
+
+  * linux-ti-omap4 2.6.38-1207.10
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 30 Mar 2011 06:40:24 -0600
+
+linux-meta-ti-omap4 (2.6.38.1206.5) natty; urgency=low
+
+  * linux-ti-omap4 2.6.38-1206.7
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 24 Mar 2011 06:33:55 -0600
+
+linux-meta-ti-omap4 (2.6.38.1204.4) natty; urgency=low
+
+  * First 2.6.38 based upload.
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 11 Mar 2011 02:01:09 -0700
+
+linux-meta-ti-omap4 (2.6.35.1101.3) natty; urgency=low
+
+  [ Bryan Wu ]
+
+  * UBUNTU: fix the RELEASENAME to natty
+  * UBUNTU: Add the linux-tools package to TI OMAP4
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 20 Jan 2011 06:54:15 -0700
+
+linux-meta-ti-omap4 (2.6.35.1101.2) natty; urgency=low
+
+  * linux-ti-omap4 2.6.35-1101.3
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Tue, 21 Dec 2010 10:06:59 -0700
+
+linux-meta-ti-omap4 (2.6.35.1100.1) natty; urgency=low
+
+  * linux-ti-omap4 2.6.35-1100.2
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 10 Dec 2010 14:06:40 -0700
+
+linux-meta-ti-omap4 (2.6.35.903.6) UNRELEASED; urgency=low
+
+  * fix descriptions of the OMAP4 meta packages
+    - LP: #623297
+    
+ -- Andy Whitcroft <apw@canonical.com>  Mon, 27 Sep 2010 10:22:27 +0100
+
+linux-meta-ti-omap4 (2.6.35.903.5) maverick; urgency=low
+
+  * Remove 35->34 bodge from 2.6.35.901.2.
+
+ -- Andy Whitcroft <apw@canonical.com>  Mon, 06 Sep 2010 17:54:25 +0100
+
+linux-meta-ti-omap4 (2.6.35.903.4) maverick; urgency=low
+
+  * Maverick ABI 903 (2.6.34-903.7)
+
+ -- Leann Ogasawara <leann.ogasawara@canonical.com>  Thu, 12 Aug 2010 11:17:26 -0700
+
+linux-meta-ti-omap4 (2.6.35.902.3) maverick; urgency=low
+
+  * Maverick ABI 902 (2.6.35.902.6)
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 23 Jul 2010 03:33:56 -0600
+
+linux-meta-ti-omap4 (2.6.35.901.2) maverick; urgency=low
+
+  * Maverick ABI 901 (2.6.34-901.2)
+  * Bodge round incorrect meta-package version number, the kernel is
+    v2.6.34-900.1 not .35.  As we are going to have a real .35 based kernel
+    shortly it is not worth throwing in an EPOCH to fix this correctly.
+  * The master meta packages should be only the flavour name to be consistent
+    with all other releases, and to be compatible with the installer.
+
+ -- Andy Whitcroft <apw@canonical.com>  Fri, 02 Jul 2010 11:48:32 +0100
+
+linux-meta-ti-omap4 (2.6.35.900.1) maverick; urgency=low
+
+  * Maverick ABI 900 (2.6.34-900.1)
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Mon, 21 Jun 2010 07:49:38 -0600

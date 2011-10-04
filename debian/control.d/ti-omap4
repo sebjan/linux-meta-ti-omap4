@@ -1,0 +1,26 @@
+Package: linux-headers-omap4
+Architecture: armel
+Section: devel
+Priority: optional
+Depends: ${misc:Depends}, linux-headers-${kernel-abi-version}-omap4 
+Description: Linux kernel headers for the OMAP4 architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM ti-omap4 systems.
+
+Package: linux-image-omap4
+Architecture: armel
+Section: metapackages
+Priority: optional
+Depends: ${misc:Depends}, linux-image-${kernel-abi-version}-omap4, linux-firmware
+Description: Linux kernel image for the OMAP4 architecture.
+ This package will always depend on the latest kernel image available
+ for ARM ti-omap4 systems.
+
+Package: linux-omap4
+Architecture: armel
+Section: metapackages
+Priority: optional
+Depends: ${misc:Depends}, linux-image-omap4 (= ${binary:Version})
+Description: Complete Linux kernel for the OMAP4 architecture.
+ This package will always depend on the latest complete Linux kernel available
+ for ARM ti-omap4 systems.
